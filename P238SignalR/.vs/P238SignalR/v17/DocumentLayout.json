@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\P238SignalR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEE1820-402A-480A-A614-8E330EC4ECA0}|P238SignalR\\P238SignalR.csproj|c:\\users\\asus\\desktop\\p238signalr\\p238signalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEE1820-402A-480A-A614-8E330EC4ECA0}|P238SignalR\\P238SignalR.csproj|solutionrelative:p238signalr\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEE1820-402A-480A-A614-8E330EC4ECA0}|P238SignalR\\P238SignalR.csproj|c:\\users\\asus\\desktop\\p238signalr\\p238signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEE1820-402A-480A-A614-8E330EC4ECA0}|P238SignalR\\P238SignalR.csproj|solutionrelative:p238signalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\P238SignalR\\P238SignalR\\Program.cs",
+              "RelativeDocumentMoniker": "P238SignalR\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\P238SignalR\\P238SignalR\\Program.cs",
+              "RelativeToolTip": "P238SignalR\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:47:46.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\P238SignalR\\P238SignalR\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "P238SignalR\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\P238SignalR\\P238SignalR\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "P238SignalR\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:40:55.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

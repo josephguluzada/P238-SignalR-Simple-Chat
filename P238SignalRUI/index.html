@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P238 Chat Room</title>
+</head>
+
+<body>
+    <input type="text" class="user-name" placeholder="username">
+    <input type="text" class="user-message" placeholder="message">
+    <button id="sendBtn">Send message</button>
+    <span>Online users:</span> <span id="userCounter">0</span>
+
+    <ul class="message-list">
+    </ul>
+</body>
+
+<script src="./node_modules/@microsoft/signalr/dist/browser/signalr.js"></script>
+<script>
+    let userName = document.querySelector(".user-name");
+    let userMessage = document.querySelector(".user-message");
+    let sendBtn = document.querySelector("#sendBtn")
+    let messageList = document.querySelector(".message-list")
+    let userCounter = document.querySelector("#userCounter")
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("https://localhost:7116/chat")
+        .build();
+    connection.start();
+
+    sendBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        let userNameValue = userName.value
+        let userMessageValue = userMessage.value
+
+        connection.invoke("SendMessageAsync", userNameValue, userMessageValue);
+    })
+
+    connection.on("ReceiveMessage", (recUserName, recUserMessage) => {
+        var li = document.createElement("li");
+
+        li.innerText = `${recUserName} : ${recUserMessage}`
+
+        messageList.append(li)
+    })
+
+    connection.on("UserCounter", counter => {
+        userCounter.innerText = counter
+    })
+
+</script>
+
+</html>
